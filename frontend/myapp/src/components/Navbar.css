@@ -1,0 +1,51 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.navbar-menu li a.active {
+  color: #4A90E2;
+  border-bottom: 2px solid #4A90E2;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.register-link {
+  margin-right: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.signin-btn {
+  padding: 8px 16px;
+  background-color: #4A90E2;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
